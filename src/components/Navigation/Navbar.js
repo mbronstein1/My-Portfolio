@@ -3,7 +3,7 @@ import './Navbar.css'
 
 
 
-export default function Navigation() {
+export default function Navbar() {
     const navLinks = ["About Me", "Projects", "Contact Me", "Resume"];
     return(
         <div className='align-self-end mb-2 custom-nav'>
