@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
-import Home from './pages/Home'
+import Home from './pages/Home';
+import About from './pages/About'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('/');
+  const [currentPage, setCurrentPage] = useState('');
 
   const renderPage = () => {
-    if (currentPage === '/') {
+    if (currentPage === '') {
       return <Home currentPage={currentPage} handlePageChange={handlePageChange} />;
     };
-    // if (currentPage === 'about') {
-    //   return <About />;
-    // };
+    if (currentPage === 'about') {
+      return <About />;
+    };
     // if (currentPage === 'portfolio') {
     //   return <Portfolio />;
     // };

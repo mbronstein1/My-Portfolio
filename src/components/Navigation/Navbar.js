@@ -33,7 +33,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                         {navLinks.map((item, index) => (
                             <li key={`${item.name}-${index}`} className="nav-item">
                                 <a className="nav-link nav-btn"
-                                    href={`/${item.link}`}
+                                    href={`#${item.link}`}
                                     onClick={() => handlePageChange(`${item.link}`)}>
                                     {item.name}
                                 </a>
