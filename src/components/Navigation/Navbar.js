@@ -3,7 +3,7 @@ import './Navbar.css'
 
 
 
-export default function Navbar() {
+export default function Navbar({ currentPage, handlePageChange }) {
     const navLinks = [
         {
             name: 'About Me',
@@ -17,11 +17,11 @@ export default function Navbar() {
             name: 'Contact Me',
             link: 'contact',
         },
-         {
+        {
             name: 'Resume',
             link: 'resume'
-         }
-        ];
+        }
+    ];
     return (
         <nav className="navbar navbar-expand-lg align-self-end mb-2 custom-nav">
             <div className="container-fluid">
@@ -32,7 +32,14 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav">
-                        {navLinks.map((item, index) => <li key={`${item.name}-${index}`} className="nav-item"><a className="nav-link nav-btn" href={`#${item.link}`}>{item.name}</a></li>)}
+                        {navLinks.map((item, index) => (
+                            <li key={`${item.name}-${index}`} className="nav-item">
+                                <a className="nav-link nav-btn" 
+                                    href={`/${item.link}`}
+                                    onClick={() => handlePageChange(`${item.link}`)}>
+                                    {item.name}
+                                </a>
+                            </li>))}
                     </ul>
                 </div>
             </div>

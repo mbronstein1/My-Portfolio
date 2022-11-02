@@ -1,0 +1,12 @@
+.custom-card {
+    margin: 35px auto;
+    height: 500px !important;
+    opacity: .9;
+    align-items: center
+}
+
+.custom-card img {
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px
+}
