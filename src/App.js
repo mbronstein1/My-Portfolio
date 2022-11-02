@@ -8,7 +8,7 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === '/') {
-      return <Home />;
+      return <Home currentPage={currentPage} handlePageChange={handlePageChange} />;
     };
     // if (currentPage === 'about') {
     //   return <About />;

@@ -2,14 +2,21 @@ import React from "react";
 import ProfilePic from '../assets/images/Profile-Pic.jpg';
 import './Home.css'
 
-export default function Home() {
+export default function Home({ currentPage, handlePageChange }) {
     return (
-        <div className="card mb-3 custom-card" style={{ maxWidth: "540px" }}>
-            <img src={ProfilePic} className="card-img-top" alt="Profile Pic" />
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div className="container-fluid d-flex justify-content-center">
+            <div className="polaroid">
+                <img src={ProfilePic} title="Profile Pic" alt="Profile Pic" />
+            </div>
+            <div className="text-content d-flex flex-column justify-content-center">
+                <h2>Hey there!</h2>
+                <p>My name is Matthew Bronstein.</p>
+                <p>I am a Chicago-based web developer.</p>
+                <p>Click below to learn more about me!</p>
+                <a href="about"
+                    onClick={() => handlePageChange('about')}>
+                    <button type='button' className='btn custom-btn'>Learn more!</button>
+                </a>
             </div>
         </div>
     )
