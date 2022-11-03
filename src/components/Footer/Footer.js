@@ -10,7 +10,7 @@ export default function Footer() {
                 <a href='https://www.facebook.com/bronstein007' target='_blank' rel="noreferrer"><i class="fa-brands fa-square-facebook fa-xl px-3"></i></a>
             </div>
             <div className='footer-copyright'>
-                <p>©mbronstein</p>
+                <p>&copy; {new Date().getFullYear()} - mbronstein</p>
             </div>
         </footer>
     )
