@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
-import Home from './pages/Home';
-import About from './pages/About'
+import Home from './pages/Home/Home';
+import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('');
 
   const renderPage = () => {
     if (currentPage === '') {
-      return <Home currentPage={currentPage} handlePageChange={handlePageChange} />;
+      return <Home handlePageChange={handlePageChange} />;
     };
     if (currentPage === 'about') {
       return <About />;
@@ -17,9 +18,9 @@ function App() {
     // if (currentPage === 'portfolio') {
     //   return <Portfolio />;
     // };
-    // if (currentPage === 'contact') {
-    //   return <Contact />;
-    // };
+    if (currentPage === 'contact') {
+      return <Contact />;
+    };
     // return <Resume />;
   }
 

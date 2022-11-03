@@ -32,7 +32,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
                     <ul className="navbar-nav">
                         {navLinks.map((item, index) => (
                             <li key={`${item.name}-${index}`} className="nav-item">
-                                <a className="nav-link nav-btn"
+                                <a className={currentPage === item.link ? 'nav-link active nav-btn' : 'nav-link nav-btn'}
                                     href={`#${item.link}`}
                                     onClick={() => handlePageChange(`${item.link}`)}>
                                     {item.name}
