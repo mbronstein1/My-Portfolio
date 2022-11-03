@@ -17,7 +17,7 @@ I am hoping to use this page as my personal website, so I still need to add func
 ![Webpage Screenshot](./src/assets/images/Screen%20Shot%202022-11-03%20at%203.27.45%20PM.png)
 
 ### Portfolio Page
-![Webpage Screenshot](./src/assets/images/Screen%20Shot%202022-11-03%20at%203.27.51%20PM.png)
+![Webpage Screenshot](./src/assets/images/Screen%20Shot%202022-11-03%20at%203.27.51%20PM.png) 
 
 ### Contact Page
 ![Webpage Screenshot](./src/assets/images/Screen%20Shot%202022-11-03%20at%203.27.54%20PM.png)
