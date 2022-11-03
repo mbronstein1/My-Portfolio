@@ -1,0 +1,37 @@
+.projects {
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.3);
+    border: solid 3px var(--main);
+    transition: .3s;
+    width: 45%;
+    height: 300px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.projects:hover {
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+}
+
+.text-container a {
+    color: rgb(185,120,173);
+    padding: 10px 0;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.text-container {
+    background-color: rgba(255,189,131, .9);
+    margin: 10px 30px 0;
+
+}
+
+.project-type-text {
+    text-align: center;
+    background-color: rgba(185,120,173);
+    padding: 5px 10px;
+    position: absolute;
+    left: 10px;
+    bottom: 1px;
+}

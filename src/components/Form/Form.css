@@ -4,6 +4,7 @@
     -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    overflow: auto;
 }
 
 button.custom-form-btn {
@@ -17,4 +18,9 @@ button.custom-form-btn {
 button.custom-form-btn:hover {
     background-color: rgb(230, 186, 146);
     color: rgb(168, 108, 157);
+}
+
+.resume-link {
+    text-decoration: none;
+    color: rgb(113, 12, 117);
 }
