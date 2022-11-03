@@ -15,11 +15,11 @@ export default function Form({
 }) {
     return (
         <div className='container'>
-            <div className='custom-container px-4 py-3 my-4 mx-auto' style={{ width: "60%", height: "32.5rem" }}>
+            <div className='custom-container px-4 py-3 my-5 mx-auto' style={{ width: "60%", height: "38rem" }}>
                 <h2 className='contact-header pb-2'>Contact Me</h2>
                 <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />
                 <form className='contact-form'>
-                    <div className="mb-3">
+                    <div className="my-4">
                         <label for="contact-name-input" className="form-label">Name</label>
                         <input
                             name='name'
@@ -33,7 +33,7 @@ export default function Form({
                             required
                         />
                     </div>
-                    <div className="mb-3">
+                    <div className="mb-4">
                         <label for="contact-email-input" className="form-label">Email</label>
                         <input
                             name='email'
@@ -47,7 +47,7 @@ export default function Form({
                             required
                         />
                     </div>
-                    <div className="mb-3">
+                    <div className="mb-4">
                         <label for="contact-textarea-input" className="form-label">Message</label>
                         <textarea
                             name='message'
@@ -64,7 +64,7 @@ export default function Form({
                     <button
                         type="button"
                         onClick={handleFormSubmit}
-                        className="btn custom-form-btn">Submit</button>
+                        className="btn custom-form-btn mt-3">Submit</button>
                 </form>
                 <div className='validation-div'>
                     {errorMsg && (
