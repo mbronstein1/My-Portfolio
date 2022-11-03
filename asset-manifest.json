@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-challenge-20/static/css/main.03d0fb6b.css",
+    "main.js": "/react-portfolio-challenge-20/static/js/main.7242ccde.js",
+    "static/media/AXIOM_BRASS-6293.jpg": "/react-portfolio-challenge-20/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
+    "static/media/Background-generator-screenshot.png": "/react-portfolio-challenge-20/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
+    "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/react-portfolio-challenge-20/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
+    "static/media/Couch-Potato-screenshot.png": "/react-portfolio-challenge-20/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
+    "static/media/Weather-dashboard-screenshot.jpg": "/react-portfolio-challenge-20/static/media/Weather-dashboard-screenshot.ddbac0725fa41bdfe2f3.jpg",
+    "static/media/code-quiz-screenshot.jpg": "/react-portfolio-challenge-20/static/media/code-quiz-screenshot.7f48f739c746eaa62fcf.jpg",
+    "static/media/Cocktail-concierge-screenshot.jpg": "/react-portfolio-challenge-20/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
+    "static/media/Password-Generator.jpg": "/react-portfolio-challenge-20/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
+    "static/media/Profile-Pic.jpg": "/react-portfolio-challenge-20/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
+    "index.html": "/react-portfolio-challenge-20/index.html",
+    "main.03d0fb6b.css.map": "/react-portfolio-challenge-20/static/css/main.03d0fb6b.css.map",
+    "main.7242ccde.js.map": "/react-portfolio-challenge-20/static/js/main.7242ccde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03d0fb6b.css",
+    "static/js/main.7242ccde.js"
+  ]
+}
