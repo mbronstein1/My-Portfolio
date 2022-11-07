@@ -4,7 +4,7 @@ import './Home.css'
 
 export default function Home({ handlePageChange }) {
     return (
-        <div className="container-fluid d-flex justify-content-center">
+        <div className="container-fluid d-flex justify-content-center custom-home-container">
             <div className="polaroid">
                 <img src={ProfilePic} title="Profile Pic" alt="Profile Pic" />
             </div>

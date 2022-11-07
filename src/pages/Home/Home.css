@@ -1,7 +1,10 @@
+.custom-home-container {
+    margin: 128px auto;
+}
+
 .polaroid {
     background: rgba(255, 255, 255, .9);
     padding: 15px 15px 30px;
-    margin-top: 130px !important;
     margin-right: 30px;
     text-align: center;
     text-decoration: none;
@@ -19,7 +22,6 @@
 .text-content {
     background: rgba(255, 255, 255, .9);
     padding: 15px 15px 30px;
-    margin-top: 130px;
     margin-left: 30px;
     width: 500px;
     text-align: center;
