@@ -1,27 +1,27 @@
 import React from 'react';
-import './Navbar.css'
+import { NavLink } from 'react-router-dom';
+import './Navbar.css';
 
-
-
-export default function Navbar({ currentPage, handlePageChange }) {
+export default function Navbar() {
     const navLinks = [
         {
             name: 'About Me',
-            link: 'about',
+            link: '/about',
         },
         {
             name: 'Portfolio',
-            link: 'portfolio',
+            link: '/portfolio',
         },
         {
             name: 'Contact Me',
-            link: 'contact',
+            link: '/contact',
         },
         {
             name: 'Resume',
-            link: 'resume'
+            link: '/resume'
         }
     ];
+    
     return (
         <nav className="navbar navbar-expand-lg align-self-end mb-2 custom-nav">
             <div className="container-fluid">
@@ -32,11 +32,10 @@ export default function Navbar({ currentPage, handlePageChange }) {
                     <ul className="navbar-nav">
                         {navLinks.map((item, index) => (
                             <li key={`${item.name}-${index}`} className="nav-item">
-                                <a className={currentPage === item.link ? 'nav-link active nav-btn' : 'nav-link nav-btn'}
-                                    href={`#${item.link}`}
-                                    onClick={() => handlePageChange(`${item.link}`)}>
+                                <NavLink  className='nav-link nav-btn'
+                                    to={item.link}>
                                     {item.name}
-                                </a>
+                                </NavLink >
                             </li>))}
                     </ul>
                 </div>

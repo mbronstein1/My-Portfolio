@@ -14,10 +14,10 @@ export default function Form({
     return (
         <div className='container'>
             <div className='custom-container px-4 py-3 mx-auto'>
-                <h2 className='contact-header pb-2'>Contact Me</h2>
+                <h2 className='contact-header pb-1'>Contact Me</h2>
                 <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />
                 <form className='contact-form'>
-                    <div className="my-4">
+                    <div className="my-3">
                         <label className="form-label">Name</label>
                         <input
                             name='name'
@@ -31,7 +31,7 @@ export default function Form({
                             required
                         />
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-3">
                         <label className="form-label">Email</label>
                         <input
                             name='email'
@@ -45,7 +45,7 @@ export default function Form({
                             required
                         />
                     </div>
-                    <div className="mb-4">
+                    <div className="mb-3">
                         <label className="form-label">Message</label>
                         <textarea
                             name='message'

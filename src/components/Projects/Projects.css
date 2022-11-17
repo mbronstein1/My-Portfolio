@@ -18,7 +18,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     overflow: auto;
     margin: 48px auto 128px;
-    width: 90%;
+    width: 100%;
 }
 
 .projects:hover {
