@@ -10,7 +10,7 @@ import Resume from './pages/Resume/Resume'
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="app pb-1">
       <Router>
         <Header />
 
