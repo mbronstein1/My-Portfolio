@@ -12,7 +12,7 @@ export default function Form({
     handleFormSubmit
 }) {
     return (
-        <div className='container'>
+        <div className='container pb-1'>
             <div className='custom-container px-4 py-3 mx-auto'>
                 <h2 className='contact-header pb-1'>Contact Me</h2>
                 <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />

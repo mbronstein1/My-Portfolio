@@ -4,7 +4,7 @@ import ProfilePic from '../../assets/images/AXIOM_BRASS-6293.jpg'
 
 export default function About() {
     return (
-        <div className="container">
+        <div className="container pb-1">
             <div className="card mx-auto custom-card">
                 <div className="card-body">
                     <img src={ProfilePic} className='profile-pic mx-5 mt-4' alt='Profile Pic 2'/>

@@ -5,7 +5,7 @@ export default function Resume() {
     const frontEndProf = ['HTML', 'CSS', 'JavaScript', 'JQuery', 'responsive design', 'React', 'Bootstrap']
     const backEndProf = ['APIs', 'Node', 'Express', 'MySQL, Sequelize', 'MongoDB, Mongoose', 'REST', 'GraphQL']
     return (
-        <div className='container'>
+        <div className='container pb-1'>
             <div className='custom-resume-container px-4 py-3 mx-auto'>
                 <h2 className='contact-header pb-2'>Resume</h2>
                 <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />

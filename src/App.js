@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Portfolio from './pages/Portfolio/Portfolio';
+import Resume from './pages/Resume/Resume'
 
 export default function App() {
   return (
@@ -30,8 +31,15 @@ export default function App() {
             path='/react-portfolio-challenge-20/contact'
             element={<Contact />}
           />
+          <Route 
+            path='react-portfolio-challenge-20/resume'
+            element={<Resume />}
+          />
+          <Route 
+            path='react-portfolio-challenge-20/*'
+            element={<Home />}
+          />
         </Routes>
-
         <Footer />
       </Router>
     </div>
