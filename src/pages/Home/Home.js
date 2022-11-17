@@ -14,7 +14,7 @@ export default function Home() {
                 <p>My name is Matthew Bronstein.</p>
                 <p>I am a Chicago-based web developer.</p>
                 <p>Click below to learn more about me!</p>
-                <NavLink to='/about'>
+                <NavLink to='/react-portfolio-challenge-20/about'>
                     <button type='button' className='btn custom-btn'>Learn more!</button>
                 </NavLink>
             </div>

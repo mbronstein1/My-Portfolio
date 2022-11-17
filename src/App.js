@@ -15,19 +15,19 @@ export default function App() {
 
         <Routes>
           <Route
-            path='/'
+            path='/react-portfolio-challenge-20/'
             element={<Home />}
           />
           <Route
-            path='/about'
+            path='/react-portfolio-challenge-20/about'
             element={<About />}
           />
           <Route
-            path='/portfolio'
+            path='/react-portfolio-challenge-20/portfolio'
             element={<Portfolio />}
           />
           <Route
-            path='/contact'
+            path='/react-portfolio-challenge-20/contact'
             element={<Contact />}
           />
         </Routes>
