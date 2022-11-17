@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
@@ -16,28 +16,24 @@ export default function App() {
 
         <Routes>
           <Route
-            path='/react-portfolio-challenge-20/'
+            path='/'
             element={<Home />}
           />
           <Route
-            path='/react-portfolio-challenge-20/about'
+            path='/about'
             element={<About />}
           />
           <Route
-            path='/react-portfolio-challenge-20/portfolio'
+            path='/portfolio'
             element={<Portfolio />}
           />
           <Route
-            path='/react-portfolio-challenge-20/contact'
+            path='/contact'
             element={<Contact />}
           />
           <Route 
-            path='react-portfolio-challenge-20/resume'
+            path='/resume'
             element={<Resume />}
-          />
-          <Route 
-            path='react-portfolio-challenge-20/*'
-            element={<Home />}
           />
         </Routes>
         <Footer />

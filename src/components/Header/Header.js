@@ -9,7 +9,7 @@ export default function Header() {
         <div className="jumbotron jumbotron-fluid header">
             <div className="d-flex flex-row h-100 justify-content-between">
                 <Link className='m-5 custom-header align-self-center'
-                    to="/react-portfolio-challenge-20/">
+                    to="/">
                     <h1>Mbronstein</h1>
                 </Link>
                 <Navbar />
