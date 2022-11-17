@@ -6,19 +6,19 @@ export default function Navbar() {
     const navLinks = [
         {
             name: 'About Me',
-            link: '/about',
+            link: '/react-portfolio-challenge-20/about',
         },
         {
             name: 'Portfolio',
-            link: '/portfolio',
+            link: '/react-portfolio-challenge-20/portfolio',
         },
         {
             name: 'Contact Me',
-            link: '/contact',
+            link: '/react-portfolio-challenge-20/contact',
         },
         {
             name: 'Resume',
-            link: '/resume'
+            link: '/react-portfolio-challenge-20/resume'
         }
     ];
     
