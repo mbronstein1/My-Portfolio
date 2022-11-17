@@ -1,60 +1,65 @@
 import React, { useState } from "react";
 import Form from '../../components/Form/Form'
 import validateEmail from '../../utils/helpers';
+import { send } from 'emailjs-com';
 
 export default function Contact() {
-
-    const [email, setEmail] = useState('');
-    const [name, setName] = useState('');
-    const [msg, setMsg] = useState('');
+    const [toSend, setToSend] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
     const [errorMsg, setErrorMsg] = useState('');
     const [successMsg, setSuccessMsg] = useState('');
 
     const handleInputChange = (e) => {
         setSuccessMsg('');
         setErrorMsg('');
-        const { target } = e;
-        const inputType = target.name;
-        const inputValue = target.value
-
-        if (inputType === 'email') {
-            setEmail(inputValue);
-        } else if (inputType === 'name') {
-            setName(inputValue)
-        } else if (inputType === 'message') {
-            setMsg(inputValue);
-        }
+        setToSend({ ...toSend, [e.target.name]: e.target.value })
     };
 
     const handleFormSubmit = (e) => {
+        const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+        const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+        const USER_ID = process.env.REACT_APP_USER_ID;
+
         e.preventDefault();
 
-        if (!validateEmail(email)) {
+        if (!validateEmail(toSend.email)) {
             setErrorMsg('Email address invalid. Please enter a valid email address');
             return;
         };
 
-        if (name === '' || email === '' || msg === '') {
+        if (toSend.name === '' || toSend.email === '' || toSend.message === '') {
             setErrorMsg('All fields are required. Please fill out each field before submitting');
             return;
         }
 
-        setName('');
-        setEmail('');
-        setMsg('');
-        setSuccessMsg('Successfully sent');
+        send(SERVICE_ID, TEMPLATE_ID, toSend, USER_ID)
+            .then((response) => {
+                setSuccessMsg('Successfully sent');
+                console.log('SUCCESS', response.status, response.text);
+            })
+            .catch((err) => {
+                setErrorMsg('Something went wrong. Please try again.')
+                console.error('FAILED', err);
+            });
+
+        setToSend({
+            name: '',
+            email: '',
+            message: ''
+        });
     };
 
     return (
-        <Form 
-            name={name}
-            email={email}
-            msg={msg}
+        <Form
+            toSend={toSend}
             errorMsg={errorMsg}
             successMsg={successMsg}
             setErrorMsg={setErrorMsg}
             setSuccessMsg={setSuccessMsg}
             handleInputChange={handleInputChange}
-            handleFormSubmit={handleFormSubmit}/>
+            handleFormSubmit={handleFormSubmit} />
     )
-}
+};

@@ -4,9 +4,7 @@ import './Form.css'
 
 
 export default function Form({
-    name,
-    email,
-    msg,
+    toSend,
     errorMsg,
     setErrorMsg,
     successMsg,
@@ -20,12 +18,12 @@ export default function Form({
                 <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />
                 <form className='contact-form'>
                     <div className="my-4">
-                        <label for="contact-name-input" className="form-label">Name</label>
+                        <label className="form-label">Name</label>
                         <input
                             name='name'
-                            value={name}
+                            value={toSend.name}
                             onChange={handleInputChange}
-                            onBlur={() => name === "" ? setErrorMsg('The name field is required') : name}
+                            onBlur={() => toSend.name === "" ? setErrorMsg('The name field is required') : toSend.name}
                             type="text"
                             className="form-control"
                             id="contact-name-input"
@@ -34,12 +32,12 @@ export default function Form({
                         />
                     </div>
                     <div className="mb-4">
-                        <label for="contact-email-input" className="form-label">Email</label>
+                        <label className="form-label">Email</label>
                         <input
                             name='email'
-                            value={email}
+                            value={toSend.email}
                             onChange={handleInputChange}
-                            onBlur={() => email === "" ? setErrorMsg('The email field is required') : email}
+                            onBlur={() => toSend.email === "" ? setErrorMsg('The email field is required') : toSend.email}
                             type='email'
                             className="form-control"
                             id="contact-email-input"
@@ -48,12 +46,12 @@ export default function Form({
                         />
                     </div>
                     <div className="mb-4">
-                        <label for="contact-textarea-input" className="form-label">Message</label>
+                        <label className="form-label">Message</label>
                         <textarea
                             name='message'
-                            value={msg}
+                            value={toSend.message}
                             onChange={handleInputChange}
-                            onBlur={() => msg === "" ? setErrorMsg('The message field is required') : msg}
+                            onBlur={() => toSend.message === "" ? setErrorMsg('The message field is required') : toSend.message}
                             className="form-control"
                             id="contact-textarea-input"
                             rows="5"
