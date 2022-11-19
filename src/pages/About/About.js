@@ -19,12 +19,14 @@ export default function About() {
                             I decided to retire as a professional musician so I could pursue another interest of mine: <strong><em>web development</em></strong>.
                         </p>
                         <p className="card-text">
-                            As a web developer, I am currently enrolled in the Full Stack Bootcamp through Northwestern University's School of Professional Studies.
-                            Through this course, I have learned basic and advanced concepts of both front-end and back-end development. Feel free to check out my
-                            recent projects in my portfolio or visit my GitHub or LinkedIn profiles below.
+                            As a web developer, I recently graduated with a certificate of completion from the Full Stack Bootcamp through Northwestern University's School of Professional Studies.
+                            Through this course, I learned basic and advanced concepts of both front-end and back-end development.
+                            As a former musician, I have a ton of transferable skills that are perfect for coding.
+                            For example, I love the flexibility and creativity of front-end development and the structure and organization of the back-end.
+                            Feel free to check out my recent projects in my portfolio or visit my GitHub or LinkedIn profiles below.
                         </p>
                         <p className="card-text">
-                            Outside of coding, I enjoy music (obviously!), sports (baseball and hockey primarily), and all things movies and television!
+                            Outside of coding, I enjoy music, sports, and all things movies, television, and gaming!
                         </p>
                     </div>
                 </div>

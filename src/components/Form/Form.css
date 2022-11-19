@@ -33,3 +33,9 @@ button.custom-form-btn:hover {
         margin: 0 auto 66px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .custom-container {
+        margin: 0 0 40px;
+    }
+}
