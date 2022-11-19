@@ -6,11 +6,20 @@ import weatherDashboard from '../../assets/images/Weather-dashboard-screenshot.j
 import codingQuiz from '../../assets/images/code-quiz-screenshot.jpg';
 import passwordGenerator from '../../assets/images/Password-Generator.jpg';
 import backgroundGenerator from '../../assets/images/Background-generator-screenshot.png';
+import hauntedHouse from '../../assets/images/project-3-landing-page-screenshot.png'
 
 export default function Projects() {
     const projectData = [
         {
             id: 1,
+            title: 'Full Moon Manor',
+            type: 'React, GraphQl, MongoDB/Mongoose',
+            img: hauntedHouse,
+            liveLink: "https://secret-river-41082.herokuapp.com/",
+            gitHubLink: "https://github.com/jmruiz96/haunted-house-game"
+        },
+        {
+            id: 2,
             title: 'Couch Potato',
             type: 'HTML/CSS/JS/Node/MySQL',
             img: couchPotato,
@@ -18,7 +27,7 @@ export default function Projects() {
             gitHubLink: "https://github.com/mbronstein1/Couch-Potato"
         },
         {
-            id: 2,
+            id: 3,
             title: 'Cocktail Concierge',
             type: 'HTML/CSS/JS/APIs',
             img: cocktailConcierge,
@@ -26,7 +35,7 @@ export default function Projects() {
             gitHubLink: "https://github.com/tyleresselman/cocktail-concierge-project-1"
         },
         {
-            id: 3,
+            id: 4,
             title: 'Weather Dashboard',
             type: 'HTML/CSS/JS/OpenWeather API',
             img: weatherDashboard,
@@ -34,7 +43,7 @@ export default function Projects() {
             gitHubLink: "https://github.com/mbronstein1/Weather-Dashboard-Challenge-6"
         },
         {
-            id: 4,
+            id: 5,
             title: 'Coding Quiz',
             type: 'HTML/CSS/JS',
             img: codingQuiz,
@@ -42,21 +51,13 @@ export default function Projects() {
             gitHubLink: "https://github.com/mbronstein1/Code-Quiz-Challenge-4"
         },
         {
-            id: 5,
+            id: 6,
             title: 'Random Password Generator',
             type: 'JavaScript',
             img: passwordGenerator,
             liveLink: "https://mbronstein1.github.io/Password-Generator-Challenge-3/",
             gitHubLink: "https://github.com/mbronstein1/Password-Generator-Challenge-3"
         },
-        {
-            id: 6,
-            title: 'Background Generator',
-            type: 'HTML/CSS/JS',
-            img: backgroundGenerator,
-            liveLink: "https://background-generator-1-git-main-mbronstein1.vercel.app/",
-            gitHubLink: "https://github.com/mbronstein1/background-generator-1"
-        }
     ];
     return (
         <div className='d-flex justify-content-around flex-wrap'>
