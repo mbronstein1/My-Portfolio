@@ -43,12 +43,12 @@
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .profile-pic {
         float: none;
     }
 
     .custom-card {
-        margin-bottom: 37px;
+        margin-bottom: 36px;
     }
 }

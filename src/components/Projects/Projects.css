@@ -5,7 +5,7 @@
     border: solid 3px var(--main);
     transition: .3s;
     width: 45%;
-    height: 300px;
+    height: 200px;
     margin: 10px 0;
     position: relative;
 }
@@ -18,7 +18,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
     overflow: auto;
     margin: 48px auto 128px;
-    width: 100%;
+    width: 80% !important;
 }
 
 .projects:hover {
@@ -45,4 +45,26 @@
     position: absolute;
     left: 10px;
     bottom: 1px;
+}
+
+@media screen and (max-width: 820px) {
+    .projects {
+        width: 90%
+    }
+
+    .custom-portfolio-container {
+        margin: 0 auto 66px;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .custom-portfolio-container {
+        margin-bottom: 41px;
+    }
 }
