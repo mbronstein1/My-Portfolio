@@ -19,3 +19,16 @@
 .footer-copyright {
     margin-left: auto;
 }
+
+@media screen and (max-width: 400px) {
+    .footer {
+        background-image: none;
+        background-color: rgba(185,120,173, .95);
+        padding: 10px;
+        height: 45px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}

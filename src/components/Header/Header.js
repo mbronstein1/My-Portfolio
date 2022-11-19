@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <div className="jumbotron jumbotron-fluid header">
             <div className="d-flex flex-row h-100 justify-content-between">
-                <Link className='m-5 custom-header align-self-center'
+                <Link className='custom-header'
                     to="/">
                     <h1>Mbronstein</h1>
                 </Link>

@@ -50,9 +50,11 @@ button.custom-btn:hover {
     .custom-home-container {
         flex-direction: column;
         padding: 0 !important;
+        margin-top: 20px;
     }
     .polaroid {
         margin: 0 0 20px 0;
+        width: 500px;
     }
 
     .text-content {
@@ -62,7 +64,7 @@ button.custom-btn:hover {
     }
 
     .text-content p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .text-content h2 {
@@ -70,13 +72,24 @@ button.custom-btn:hover {
     }
     
     .text-content button {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 620px) {
+.custom-home-container {
+    margin: 0 0 66px;
+}
+
+    .polaroid {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0;
+        height: 250px;
+    }
+
     .text-content {
-        margin: 10px 0 0 0;
+        margin: 0;
         width: 100%;
     }
 
@@ -86,5 +99,11 @@ button.custom-btn:hover {
     
     .text-content button {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .custom-home-container {
+        margin-bottom: 41px;
     }
 }
