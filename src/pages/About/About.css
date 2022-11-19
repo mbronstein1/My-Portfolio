@@ -20,3 +20,35 @@
 .card-text {
     text-align: justify;
 }
+
+@media screen and (max-width: 780px) {
+    .custom-card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .custom-card {
+        width: 100%;
+        margin: 0 auto 62px;
+        border-radius: 0 !important;
+    }
+
+    .card-body {
+        padding: 5px !important
+    }
+
+    .custom-about-container {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .profile-pic {
+        float: none;
+    }
+
+    .custom-card {
+        margin-bottom: 37px;
+    }
+}
