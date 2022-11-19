@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-challenge-20/static/css/main.c9799749.css",
-    "main.js": "/react-portfolio-challenge-20/static/js/main.347f8965.js",
+    "main.js": "/react-portfolio-challenge-20/static/js/main.f4b56b2e.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/react-portfolio-challenge-20/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/Background-generator-screenshot.png": "/react-portfolio-challenge-20/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/react-portfolio-challenge-20/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
@@ -10,13 +10,14 @@
     "static/media/code-quiz-screenshot.jpg": "/react-portfolio-challenge-20/static/media/code-quiz-screenshot.7f48f739c746eaa62fcf.jpg",
     "static/media/Cocktail-concierge-screenshot.jpg": "/react-portfolio-challenge-20/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
     "static/media/Password-Generator.jpg": "/react-portfolio-challenge-20/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
+    "static/media/project-3-landing-page-screenshot.png": "/react-portfolio-challenge-20/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
     "static/media/Profile-Pic.jpg": "/react-portfolio-challenge-20/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/react-portfolio-challenge-20/index.html",
     "main.c9799749.css.map": "/react-portfolio-challenge-20/static/css/main.c9799749.css.map",
-    "main.347f8965.js.map": "/react-portfolio-challenge-20/static/js/main.347f8965.js.map"
+    "main.f4b56b2e.js.map": "/react-portfolio-challenge-20/static/js/main.f4b56b2e.js.map"
   },
   "entrypoints": [
     "static/css/main.c9799749.css",
-    "static/js/main.347f8965.js"
+    "static/js/main.f4b56b2e.js"
   ]
 }
