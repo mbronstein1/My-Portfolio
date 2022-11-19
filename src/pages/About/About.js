@@ -15,7 +15,7 @@ export default function About() {
                             My name is Matthew Bronstein, and I am a web developer based in the Chicagoland area. 
                             Originally born and raised in a suburb of Los Angeles, California, I moved to Chicago in 2006
                             to earn my Bachelor's Degree in Music at Roosevelt University's Chicago College of
-                            Performing Arts, with a focus in French Horn Performance. After a successful 16-year career in the music,
+                            Performing Arts, with a focus in French Horn Performance. After a successful 16-year career in music,
                             I decided to retire as a professional musician so I could pursue another interest of mine: <strong><em>web development</em></strong>.
                         </p>
                         <p className="card-text">
