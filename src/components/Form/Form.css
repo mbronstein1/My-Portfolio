@@ -26,3 +26,10 @@ button.custom-form-btn:hover {
     text-decoration: none;
     color: rgb(113, 12, 117);
 }
+
+@media screen and (max-width: 620px) {
+    .custom-container {
+        max-width: 100% !important;
+        margin: 0 auto 66px;
+    }
+}
