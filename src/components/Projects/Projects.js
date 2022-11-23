@@ -5,7 +5,6 @@ import cocktailConcierge from '../../assets/images/Cocktail-concierge-screenshot
 import weatherDashboard from '../../assets/images/Weather-dashboard-screenshot.jpg';
 import codingQuiz from '../../assets/images/code-quiz-screenshot.jpg';
 import passwordGenerator from '../../assets/images/Password-Generator.jpg';
-import backgroundGenerator from '../../assets/images/Background-generator-screenshot.png';
 import hauntedHouse from '../../assets/images/project-3-landing-page-screenshot.png'
 
 export default function Projects() {

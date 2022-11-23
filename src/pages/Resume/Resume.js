@@ -1,5 +1,6 @@
 import React from "react";
-import './Resume.css'
+import webDevResume from '../../assets/Web-development-resume.pdf'
+import './Resume.css';
 
 export default function Resume() {
     const frontEndProf = ['HTML', 'CSS', 'JavaScript', 'JQuery', 'responsive design', 'React', 'Bootstrap']
@@ -8,7 +9,7 @@ export default function Resume() {
         <div className='container pb-1 custom-resume-container px-4 py-3 mx-auto'>
             <h2 className='contact-header pb-2'>Resume</h2>
             <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />
-            <p>Download my <a href='#' className='resume-link'>resume</a>.</p>
+            <p>Download my <a href={webDevResume} target="_blank" rel="noreferrer" className='resume-link'>resume</a>.</p>
             <div className='resume-content'>
                 <h3>Front-end Proficiencies</h3>
                 <ul>
