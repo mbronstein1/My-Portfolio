@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-challenge-20/static/css/main.c9799749.css",
-    "main.js": "/react-portfolio-challenge-20/static/js/main.21e20768.js",
+    "main.js": "/react-portfolio-challenge-20/static/js/main.15a833d1.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/react-portfolio-challenge-20/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/react-portfolio-challenge-20/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
     "static/media/Couch-Potato-screenshot.png": "/react-portfolio-challenge-20/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
@@ -10,14 +10,14 @@
     "static/media/Cocktail-concierge-screenshot.jpg": "/react-portfolio-challenge-20/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
     "static/media/Password-Generator.jpg": "/react-portfolio-challenge-20/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
     "static/media/project-3-landing-page-screenshot.png": "/react-portfolio-challenge-20/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
-    "static/media/Web-development-resume_V2.pdf": "/react-portfolio-challenge-20/static/media/Web-development-resume_V2.6b20b88365cda820b817.pdf",
+    "static/media/Web-development-resume_V2.pdf": "/react-portfolio-challenge-20/static/media/Web-development-resume_V2.0667e0ecf50e0ccfcd1b.pdf",
     "static/media/Profile-Pic.jpg": "/react-portfolio-challenge-20/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/react-portfolio-challenge-20/index.html",
     "main.c9799749.css.map": "/react-portfolio-challenge-20/static/css/main.c9799749.css.map",
-    "main.21e20768.js.map": "/react-portfolio-challenge-20/static/js/main.21e20768.js.map"
+    "main.15a833d1.js.map": "/react-portfolio-challenge-20/static/js/main.15a833d1.js.map"
   },
   "entrypoints": [
     "static/css/main.c9799749.css",
-    "static/js/main.21e20768.js"
+    "static/js/main.15a833d1.js"
   ]
 }
