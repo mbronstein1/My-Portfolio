@@ -1,5 +1,5 @@
 import React from "react";
-import webDevResume from '../../assets/Web-development-resume.pdf'
+import webDevResume from '../../assets/Web-development-resume_V2.pdf'
 import './Resume.css';
 
 export default function Resume() {
