@@ -38,24 +38,24 @@ export default function Projects() {
             title: 'Weather Dashboard',
             type: 'HTML/CSS/JS/OpenWeather API',
             img: weatherDashboard,
-            liveLink: "https://mbronstein1.github.io/Weather-Dashboard-Challenge-6/",
-            gitHubLink: "https://github.com/mbronstein1/Weather-Dashboard-Challenge-6"
+            liveLink: "https://mbronstein1.github.io/Weather-Dashboard",
+            gitHubLink: "https://github.com/mbronstein1/Weather-Dashboard"
         },
         {
             id: 5,
             title: 'Coding Quiz',
             type: 'HTML/CSS/JS',
             img: codingQuiz,
-            liveLink: "https://mbronstein1.github.io/Code-Quiz-Challenge-4/",
-            gitHubLink: "https://github.com/mbronstein1/Code-Quiz-Challenge-4"
+            liveLink: "https://mbronstein1.github.io/Code-Quiz",
+            gitHubLink: "https://github.com/mbronstein1/Code-Quiz"
         },
         {
             id: 6,
             title: 'Random Password Generator',
             type: 'JavaScript',
             img: passwordGenerator,
-            liveLink: "https://mbronstein1.github.io/Password-Generator-Challenge-3/",
-            gitHubLink: "https://github.com/mbronstein1/Password-Generator-Challenge-3"
+            liveLink: "https://mbronstein1.github.io/Random-Password-Generator",
+            gitHubLink: "https://github.com/mbronstein1/Random-Password-Generator"
         },
     ];
     return (
