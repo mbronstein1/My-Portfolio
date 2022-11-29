@@ -1,4 +1,4 @@
-# React-Portfolio-Challenge-20
+# My Portfolio
 
 ## Description
 This is the twentieth challenge in the Northwestern Coding Bootcamp (Module 20). In this module, we learned all about the powerful JavaScript library, React. For this project, we were expected to create a single-page application using React components and conditional routing. Required pages included About Me, Portfolio w/ 6 of our projects (linked to live link and github repo), Contact Me, and Resume. However, we were not expected to have the contact form functional nor the resume downloaded yet. The only npm packages I used were those provided by the create-react-app command as well as the bootstrap npm. However, while I understand the desire to use CSS frameworks, I personally would rather have complete control of the design, so I have added a decent amount of custom CSS (hence the current lack of responsiveness mentioned below!)
@@ -6,7 +6,7 @@ This is the twentieth challenge in the Northwestern Coding Bootcamp (Module 20).
 I am hoping to use this page as my personal website, so I still need to add functionality to the form and resume download, as well as adjust responsiveness (I currently do not have any media queries, which I desperately need to add).
 
 ## Link to live page
-[Live Link](https://mbronstein1.github.io/react-portfolio-challenge-20/)
+[Live Link](https://mbronstein1.github.io/My-Portfolio/)
 
 ## Screenshot
 
