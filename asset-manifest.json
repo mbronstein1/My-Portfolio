@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.ca7f4122.css",
-    "main.js": "/My-Portfolio/static/js/main.77c94b34.js",
+    "main.js": "/My-Portfolio/static/js/main.e99efbd1.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/My-Portfolio/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/My-Portfolio/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
     "static/media/Couch-Potato-screenshot.png": "/My-Portfolio/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
@@ -10,14 +10,14 @@
     "static/media/Cocktail-concierge-screenshot.jpg": "/My-Portfolio/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
     "static/media/Password-Generator.jpg": "/My-Portfolio/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
     "static/media/project-3-landing-page-screenshot.png": "/My-Portfolio/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
-    "static/media/Web-development-resume_V2.pdf": "/My-Portfolio/static/media/Web-development-resume_V2.192b4b918058299fe0f7.pdf",
+    "static/media/Web-development-resume_V2.pdf": "/My-Portfolio/static/media/Web-development-resume_V2.04b4bbdc9b88d06576d9.pdf",
     "static/media/Profile-Pic.jpg": "/My-Portfolio/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/My-Portfolio/index.html",
     "main.ca7f4122.css.map": "/My-Portfolio/static/css/main.ca7f4122.css.map",
-    "main.77c94b34.js.map": "/My-Portfolio/static/js/main.77c94b34.js.map"
+    "main.e99efbd1.js.map": "/My-Portfolio/static/js/main.e99efbd1.js.map"
   },
   "entrypoints": [
     "static/css/main.ca7f4122.css",
-    "static/js/main.77c94b34.js"
+    "static/js/main.e99efbd1.js"
   ]
 }
