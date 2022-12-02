@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.ca7f4122.css",
-    "main.js": "/My-Portfolio/static/js/main.ca2e3580.js",
+    "main.css": "/My-Portfolio/static/css/main.ed79e744.css",
+    "main.js": "/My-Portfolio/static/js/main.29a94b5b.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/My-Portfolio/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/My-Portfolio/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
     "static/media/Couch-Potato-screenshot.png": "/My-Portfolio/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
@@ -13,11 +13,11 @@
     "static/media/Web-dev-resume_Final.pdf": "/My-Portfolio/static/media/Web-dev-resume_Final.03bfdcd399558d84f6cd.pdf",
     "static/media/Profile-Pic.jpg": "/My-Portfolio/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/My-Portfolio/index.html",
-    "main.ca7f4122.css.map": "/My-Portfolio/static/css/main.ca7f4122.css.map",
-    "main.ca2e3580.js.map": "/My-Portfolio/static/js/main.ca2e3580.js.map"
+    "main.ed79e744.css.map": "/My-Portfolio/static/css/main.ed79e744.css.map",
+    "main.29a94b5b.js.map": "/My-Portfolio/static/js/main.29a94b5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca7f4122.css",
-    "static/js/main.ca2e3580.js"
+    "static/css/main.ed79e744.css",
+    "static/js/main.29a94b5b.js"
   ]
 }
