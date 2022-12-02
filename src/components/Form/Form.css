@@ -9,6 +9,10 @@
     width: 90%;
 }
 
+form a {
+    color: rgb(255,189,131);
+}
+
 button.custom-form-btn {
     background-color: rgb(255, 189, 131);
     width: 25%;

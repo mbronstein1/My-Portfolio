@@ -16,6 +16,9 @@ export default function Form({
             <h2 className='contact-header pb-1'>Contact Me</h2>
             <hr style={{ borderTop: "solid 2px rgb(255, 189, 131)" }} />
             <form className='contact-form'>
+                <div>
+                    <p>Connect with me either via <a href="mailto:mbronstein1@gmail.com">email</a> or the form below!</p>
+                </div>
                 <div className="my-3">
                     <label className="form-label">Name</label>
                     <input
