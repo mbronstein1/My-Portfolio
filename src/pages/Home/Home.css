@@ -32,6 +32,48 @@
     height: 300px;
 }
 
+.wave {
+    animation-name: wave-hand;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-hand {
+    0% {
+        transform: rotate(0.0deg);
+    }
+
+    10% {
+        transform: rotate(14.0deg);
+    }
+
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
 button.custom-btn {
     background-color: rgb(185, 120, 173);
     width: 40%;
@@ -52,6 +94,7 @@ button.custom-btn:hover {
         padding: 0 !important;
         margin-top: 20px;
     }
+
     .polaroid {
         margin: 0 0 20px 0;
         width: 500px;
@@ -70,16 +113,16 @@ button.custom-btn:hover {
     .text-content h2 {
         font-size: 40px;
     }
-    
+
     .text-content button {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 620px) {
-.custom-home-container {
-    margin: 0 0 66px;
-}
+    .custom-home-container {
+        margin: 0 0 66px;
+    }
 
     .polaroid {
         width: 100%;
@@ -96,7 +139,7 @@ button.custom-btn:hover {
     .text-content p {
         font-size: 18px;
     }
-    
+
     .text-content button {
         font-size: 18px;
     }
