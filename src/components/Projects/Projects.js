@@ -15,7 +15,7 @@ export default function Projects() {
             type: 'React, GraphQl, MongoDB/Mongoose',
             img: hauntedHouse,
             liveLink: "https://secret-river-41082.herokuapp.com/",
-            gitHubLink: "https://github.com/jmruiz96/haunted-house-game"
+            gitHubLink: "https://github.com/jmruiz96/Full-Moon-Manor"
         },
         {
             id: 2,
