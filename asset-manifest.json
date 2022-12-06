@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.ed79e744.css",
-    "main.js": "/My-Portfolio/static/js/main.29a94b5b.js",
+    "main.js": "/My-Portfolio/static/js/main.bf6dfc3c.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/My-Portfolio/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/My-Portfolio/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
     "static/media/Couch-Potato-screenshot.png": "/My-Portfolio/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
@@ -14,10 +14,10 @@
     "static/media/Profile-Pic.jpg": "/My-Portfolio/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/My-Portfolio/index.html",
     "main.ed79e744.css.map": "/My-Portfolio/static/css/main.ed79e744.css.map",
-    "main.29a94b5b.js.map": "/My-Portfolio/static/js/main.29a94b5b.js.map"
+    "main.bf6dfc3c.js.map": "/My-Portfolio/static/js/main.bf6dfc3c.js.map"
   },
   "entrypoints": [
     "static/css/main.ed79e744.css",
-    "static/js/main.29a94b5b.js"
+    "static/js/main.bf6dfc3c.js"
   ]
 }
