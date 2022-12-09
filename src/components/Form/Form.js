@@ -20,7 +20,7 @@ export default function Form({
                     <p>Connect with me either via <a href="mailto:mbronstein1@gmail.com">email</a> or the form below!</p>
                 </div>
                 <div className="my-3">
-                    <label className="form-label">Name</label>
+                    <label className="form-label" htmlFor="contact-name-input">Name</label>
                     <input
                         name='name'
                         value={toSend.name}
@@ -34,7 +34,7 @@ export default function Form({
                     />
                 </div>
                 <div className="mb-3">
-                    <label className="form-label">Email</label>
+                    <label className="form-label" htmlFor="contact-email-input">Email</label>
                     <input
                         name='email'
                         value={toSend.email}
@@ -48,7 +48,7 @@ export default function Form({
                     />
                 </div>
                 <div className="mb-3">
-                    <label className="form-label">Message</label>
+                    <label className="form-label" htmlFor="contact-textarea-input">Message</label>
                     <textarea
                         name='message'
                         value={toSend.message}
