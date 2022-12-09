@@ -14,7 +14,7 @@ export default function Projects() {
         {
             id: 1,
             title: 'Full Moon Manor',
-            type: 'React/GraphQL/MongoDB/Mongoose',
+            type: 'React, GraphQL, MongoDB/Mongoose',
             img: hauntedHouse,
             liveLink: "https://secret-river-41082.herokuapp.com/",
             gitHubLink: "https://github.com/jmruiz96/Full-Moon-Manor"
@@ -22,7 +22,7 @@ export default function Projects() {
         {
             id: 2,
             title: 'Couch Potato',
-            type: 'MVC: Handlebars/Express/MySQL/Sequelize',
+            type: 'MVC: Handlebars, Express, MySQL/Sequelize',
             img: couchPotato,
             liveLink: "https://infinite-river-93616.herokuapp.com/",
             gitHubLink: "https://github.com/mbronstein1/Couch-Potato"
@@ -30,7 +30,7 @@ export default function Projects() {
         {
             id: 3,
             title: 'Cocktail Concierge',
-            type: 'HTML/CSS/JS/APIs',
+            type: 'HTML, CSS, JS, APIs',
             img: cocktailConcierge,
             liveLink: "https://tyleresselman.github.io/cocktail-concierge-project-1/index.html",
             gitHubLink: "https://github.com/tyleresselman/cocktail-concierge-project-1"
@@ -38,7 +38,7 @@ export default function Projects() {
         {
             id: 4,
             title: 'Weather Dashboard',
-            type: 'HTML/CSS/JS/OpenWeather API',
+            type: 'HTML, CSS, JS, OpenWeather API',
             img: weatherDashboard,
             liveLink: "https://mbronstein1.github.io/Weather-Dashboard",
             gitHubLink: "https://github.com/mbronstein1/Weather-Dashboard"
@@ -46,7 +46,7 @@ export default function Projects() {
         {
             id: 5,
             title: 'Coding Quiz',
-            type: 'HTML/CSS/JavaScript',
+            type: 'HTML, CSS, JavaScript',
             img: codingQuiz,
             liveLink: "https://mbronstein1.github.io/Code-Quiz",
             gitHubLink: "https://github.com/mbronstein1/Code-Quiz"
@@ -62,7 +62,7 @@ export default function Projects() {
         {
             id: 7,
             title: 'Background Generator',
-            type: 'HTML/CSS/JavaScript',
+            type: 'HTML, CSS, JavaScript',
             img: backgroundGenerator,
             liveLink: "https://background-generator-1.vercel.app/",
             gitHubLink: "https://github.com/mbronstein1/background-generator-1"
