@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import ProjectDesc from './ProjectDesc';
 import couchPotato from '../../assets/images/Couch-Potato-screenshot.png';
 import cocktailConcierge from '../../assets/images/Cocktail-concierge-screenshot.jpg';
 import weatherDashboard from '../../assets/images/Weather-dashboard-screenshot.jpg';
@@ -17,6 +18,7 @@ export default function Projects() {
       title: 'Full Moon Manor',
       type: 'ReactJS, GraphQL, MongoDB/Mongoose',
       img: hauntedHouse,
+      description: 'Enjoy this text-based, story-driven exploration game where users must escape a haunted house before their health points reach zero.',
       liveLink: 'https://secret-river-41082.herokuapp.com/',
       gitHubLink: 'https://github.com/jmruiz96/Full-Moon-Manor',
     },
@@ -25,6 +27,7 @@ export default function Projects() {
       title: 'Couch Potato',
       type: 'MVC: Handlebars, Express, MySQL/Sequelize',
       img: couchPotato,
+      description: 'Search and store information about favorite movies in a single digital collection.',
       liveLink: 'https://infinite-river-93616.herokuapp.com/',
       gitHubLink: 'https://github.com/mbronstein1/Couch-Potato',
     },
@@ -33,6 +36,7 @@ export default function Projects() {
       title: 'Cocktail Concierge',
       type: 'HTML, CSS, JS, APIs',
       img: cocktailConcierge,
+      description: 'Receive recipes to a selection of cocktails based on search input.',
       liveLink: 'https://tyleresselman.github.io/cocktail-concierge-project-1/index.html',
       gitHubLink: 'https://github.com/tyleresselman/cocktail-concierge-project-1',
     },
@@ -41,6 +45,7 @@ export default function Projects() {
       title: 'Expense Tracker',
       type: 'ReactJS',
       img: expenseTracker,
+      description: 'Add expenses by date and track them by comparing with a sleek chart.',
       liveLink: 'mbronstein1.github.io/expense-tracker/',
       gitHubLink: 'https://github.com/mbronstein1/expense-tracker',
     },
@@ -49,6 +54,7 @@ export default function Projects() {
       title: 'Weather Dashboard',
       type: 'HTML, CSS, JS, OpenWeather API',
       img: weatherDashboard,
+      description: 'View the current weather and 5-day forecast in any city.',
       liveLink: 'https://mbronstein1.github.io/Weather-Dashboard',
       gitHubLink: 'https://github.com/mbronstein1/Weather-Dashboard',
     },
@@ -57,6 +63,7 @@ export default function Projects() {
       title: 'Coding Quiz',
       type: 'HTML, CSS, JavaScript',
       img: codingQuiz,
+      description: 'Take a timed coding quiz made almost entirely with vanilla Javascript.',
       liveLink: 'https://mbronstein1.github.io/Code-Quiz',
       gitHubLink: 'https://github.com/mbronstein1/Code-Quiz',
     },
@@ -65,6 +72,7 @@ export default function Projects() {
       title: 'Random Password Generator',
       type: 'JavaScript',
       img: passwordGenerator,
+      description: 'Generate a random password by inputting certain parameters including character length, capitalization, numeric values and/or special characters.',
       liveLink: 'https://mbronstein1.github.io/Random-Password-Generator',
       gitHubLink: 'https://github.com/mbronstein1/Random-Password-Generator',
     },
@@ -73,6 +81,7 @@ export default function Projects() {
       title: 'Background Generator',
       type: 'HTML, CSS, JavaScript',
       img: backgroundGenerator,
+      description: 'Generate different background colors with this gradient background generator or let the app generate it randomly',
       liveLink: 'https://background-generator-1.vercel.app/',
       gitHubLink: 'https://github.com/mbronstein1/background-generator-1',
     },
@@ -81,6 +90,7 @@ export default function Projects() {
       title: 'Test Ecommerce Site',
       type: 'NextJS, Stripe API, Sanity Studio',
       img: testEcommerceSite,
+      description: 'Browse a collection of electronic items, add to the cart, and successfully checkout using Stripe payments -- TEST ONLY',
       liveLink: 'https://e-commerce-sample-site.vercel.app/',
       gitHubLink: 'https://github.com/mbronstein1/e-commerce-sample-site',
     },
@@ -107,6 +117,7 @@ export default function Projects() {
                 <i className='fa-brands fa-github fa-2xl'></i>
               </a>
             </div>
+            <ProjectDesc description={project.description} />
             <div>
               <p className='project-type-text'>{project.type}</p>
             </div>
