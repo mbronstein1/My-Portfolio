@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.ed79e744.css",
-    "main.js": "/My-Portfolio/static/js/main.262b5458.js",
+    "main.css": "/My-Portfolio/static/css/main.c518a2cb.css",
+    "main.js": "/My-Portfolio/static/js/main.c655b59c.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/My-Portfolio/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/Background-generator-screenshot.png": "/My-Portfolio/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/My-Portfolio/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
@@ -11,15 +11,16 @@
     "static/media/Cocktail-concierge-screenshot.jpg": "/My-Portfolio/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
     "static/media/Password-Generator.jpg": "/My-Portfolio/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
     "static/media/Test-Ecommerce-Site-Screenshot.png": "/My-Portfolio/static/media/Test-Ecommerce-Site-Screenshot.c7fe0d0fc7dd0fe31eac.png",
+    "static/media/Expense-tracker-screenshot.png": "/My-Portfolio/static/media/Expense-tracker-screenshot.d6027da5fbfd75db6cbc.png",
     "static/media/project-3-landing-page-screenshot.png": "/My-Portfolio/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
-    "static/media/Web-dev-resume_Final.pdf": "/My-Portfolio/static/media/Web-dev-resume_Final.03bfdcd399558d84f6cd.pdf",
+    "static/media/Web-dev-resume_Final.pdf": "/My-Portfolio/static/media/Web-dev-resume_Final.7b938e747128ec3dba28.pdf",
     "static/media/Profile-Pic.jpg": "/My-Portfolio/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/My-Portfolio/index.html",
-    "main.ed79e744.css.map": "/My-Portfolio/static/css/main.ed79e744.css.map",
-    "main.262b5458.js.map": "/My-Portfolio/static/js/main.262b5458.js.map"
+    "main.c518a2cb.css.map": "/My-Portfolio/static/css/main.c518a2cb.css.map",
+    "main.c655b59c.js.map": "/My-Portfolio/static/js/main.c655b59c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed79e744.css",
-    "static/js/main.262b5458.js"
+    "static/css/main.c518a2cb.css",
+    "static/js/main.c655b59c.js"
   ]
 }
