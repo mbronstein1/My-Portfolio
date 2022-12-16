@@ -6,11 +6,11 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Portfolio from './pages/Portfolio/Portfolio';
-import Resume from './pages/Resume/Resume'
+import Resume from './pages/Resume/Resume';
 
 export default function App() {
   return (
-    <div className="app pb-1">
+    <div className='app pb-1'>
       <Router>
         <Header />
 
@@ -31,7 +31,7 @@ export default function App() {
             path='/contact'
             element={<Contact />}
           />
-          <Route 
+          <Route
             path='/resume'
             element={<Resume />}
           />
@@ -40,4 +40,4 @@ export default function App() {
       </Router>
     </div>
   );
-};
+}
