@@ -46,11 +46,20 @@ export default function Projects() {
       type: 'ReactJS',
       img: expenseTracker,
       description: 'Add expenses by date and track them by comparing with a sleek chart.',
-      liveLink: 'mbronstein1.github.io/expense-tracker/',
+      liveLink: 'https://mbronstein1.github.io/expense-tracker/',
       gitHubLink: 'https://github.com/mbronstein1/expense-tracker',
     },
     {
       id: 5,
+      title: 'Test Ecommerce Site',
+      type: 'NextJS, Stripe API, Sanity Studio',
+      img: testEcommerceSite,
+      description: 'Browse a collection of electronic items, add to the cart, and successfully checkout using Stripe payments -- TEST ONLY',
+      liveLink: 'https://e-commerce-sample-site.vercel.app/',
+      gitHubLink: 'https://github.com/mbronstein1/e-commerce-sample-site',
+    },
+    {
+      id: 6,
       title: 'Weather Dashboard',
       type: 'HTML, CSS, JS, OpenWeather API',
       img: weatherDashboard,
@@ -59,7 +68,7 @@ export default function Projects() {
       gitHubLink: 'https://github.com/mbronstein1/Weather-Dashboard',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Coding Quiz',
       type: 'HTML, CSS, JavaScript',
       img: codingQuiz,
@@ -68,7 +77,7 @@ export default function Projects() {
       gitHubLink: 'https://github.com/mbronstein1/Code-Quiz',
     },
     {
-      id: 7,
+      id: 8,
       title: 'Random Password Generator',
       type: 'JavaScript',
       img: passwordGenerator,
@@ -77,7 +86,7 @@ export default function Projects() {
       gitHubLink: 'https://github.com/mbronstein1/Random-Password-Generator',
     },
     {
-      id: 8,
+      id: 9,
       title: 'Background Generator',
       type: 'HTML, CSS, JavaScript',
       img: backgroundGenerator,
@@ -85,43 +94,37 @@ export default function Projects() {
       liveLink: 'https://background-generator-1.vercel.app/',
       gitHubLink: 'https://github.com/mbronstein1/background-generator-1',
     },
-    {
-      id: 9,
-      title: 'Test Ecommerce Site',
-      type: 'NextJS, Stripe API, Sanity Studio',
-      img: testEcommerceSite,
-      description: 'Browse a collection of electronic items, add to the cart, and successfully checkout using Stripe payments -- TEST ONLY',
-      liveLink: 'https://e-commerce-sample-site.vercel.app/',
-      gitHubLink: 'https://github.com/mbronstein1/e-commerce-sample-site',
-    },
   ];
   return (
     <div className='d-flex justify-content-around flex-wrap'>
       {projectData.map(project => {
         return (
-          <div
-            className='projects'
-            style={{ backgroundImage: `url(${project.img})` }}
-            key={`${project.title}-${project.id}`}>
-            <div className='d-flex justify-content-around text-container'>
-              <a
-                href={project.liveLink}
-                target='_blank'
-                rel='noreferrer'>
-                <h4>{project.title}</h4>
-              </a>
-              <a
-                href={project.gitHubLink}
-                target='_blank'
-                rel='noreferrer'>
-                <i className='fa-brands fa-github fa-2xl'></i>
-              </a>
+          <>
+            <div className='overlay'></div>
+            <div
+              className='projects'
+              style={{ backgroundImage: `url(${project.img})` }}
+              key={`${project.title}-${project.id}`}>
+              <div className='d-flex justify-content-around text-container'>
+                <a
+                  href={project.liveLink}
+                  target='_blank'
+                  rel='noreferrer'>
+                  <h4>{project.title}</h4>
+                </a>
+                <a
+                  href={project.gitHubLink}
+                  target='_blank'
+                  rel='noreferrer'>
+                  <i className='fa-brands fa-github fa-2xl'></i>
+                </a>
+              </div>
+              <ProjectDesc description={project.description} />
+              <div>
+                <p className='project-type-text'>{project.type}</p>
+              </div>
             </div>
-            <ProjectDesc description={project.description} />
-            <div>
-              <p className='project-type-text'>{project.type}</p>
-            </div>
-          </div>
+          </>
         );
       })}
     </div>

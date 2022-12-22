@@ -9,4 +9,5 @@
   color: rgb(185, 120, 173);
   padding: 10px 0;
   margin: 5px;
+  user-select: none;
 }
