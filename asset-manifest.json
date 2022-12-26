@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.438998b8.css",
+    "main.css": "/static/css/main.e00bc6cf.css",
     "main.js": "/static/js/main.81bf166f.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/Background-generator-screenshot.png": "/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
@@ -16,11 +16,11 @@
     "static/media/Web-dev-resume_Final.pdf": "/static/media/Web-dev-resume_Final.7b938e747128ec3dba28.pdf",
     "static/media/Profile-Pic.jpg": "/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/index.html",
-    "main.438998b8.css.map": "/static/css/main.438998b8.css.map",
+    "main.e00bc6cf.css.map": "/static/css/main.e00bc6cf.css.map",
     "main.81bf166f.js.map": "/static/js/main.81bf166f.js.map"
   },
   "entrypoints": [
-    "static/css/main.438998b8.css",
+    "static/css/main.e00bc6cf.css",
     "static/js/main.81bf166f.js"
   ]
 }
