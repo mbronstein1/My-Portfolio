@@ -11,11 +11,7 @@ export default function Resume() {
       <hr style={{ borderTop: 'solid 2px rgb(255, 189, 131)' }} />
       <p>
         Download my{' '}
-        <a
-          href={webDevResume}
-          target='_blank'
-          rel='noreferrer'
-          className='resume-link'>
+        <a href={webDevResume} target='_blank' rel='noreferrer' className='resume-link'>
           resume
         </a>
         .
