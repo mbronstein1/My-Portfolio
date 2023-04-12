@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e00bc6cf.css",
-    "main.js": "/static/js/main.6f593f9e.js",
+    "main.js": "/static/js/main.96c8de9c.js",
     "static/media/AXIOM_BRASS-6293.jpg": "/static/media/AXIOM_BRASS-6293.9b8425e238159dcb58fb.jpg",
     "static/media/Background-generator-screenshot.png": "/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
     "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
@@ -13,14 +13,14 @@
     "static/media/Test-Ecommerce-Site-Screenshot.png": "/static/media/Test-Ecommerce-Site-Screenshot.c7fe0d0fc7dd0fe31eac.png",
     "static/media/Expense-tracker-screenshot.png": "/static/media/Expense-tracker-screenshot.d6027da5fbfd75db6cbc.png",
     "static/media/project-3-landing-page-screenshot.png": "/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
-    "static/media/Web-dev-resume_Final.pdf": "/static/media/Web-dev-resume_Final.c74fa707a0f277c62516.pdf",
+    "static/media/Web-dev-resume_Final.pdf": "/static/media/Web-dev-resume_Final.3fccfdb9adf99b505518.pdf",
     "static/media/Profile-Pic.jpg": "/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
     "index.html": "/index.html",
     "main.e00bc6cf.css.map": "/static/css/main.e00bc6cf.css.map",
-    "main.6f593f9e.js.map": "/static/js/main.6f593f9e.js.map"
+    "main.96c8de9c.js.map": "/static/js/main.96c8de9c.js.map"
   },
   "entrypoints": [
     "static/css/main.e00bc6cf.css",
-    "static/js/main.6f593f9e.js"
+    "static/js/main.96c8de9c.js"
   ]
 }
