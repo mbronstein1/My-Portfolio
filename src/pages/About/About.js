@@ -1,17 +1,13 @@
 import React from 'react';
 import './About.css';
-import ProfilePic from '../../assets/images/AXIOM_BRASS-6293.jpg';
+import ProfilePic from '../../assets/images/headshot2.jpeg';
 
 export default function About() {
   return (
     <div className='container-fluid custom-about-container pb-1'>
       <div className='card mx-auto custom-card'>
         <div className='card-body'>
-          <img
-            src={ProfilePic}
-            className='profile-pic mx-4 mt-4'
-            alt='Profile Pic 2'
-          />
+          <img src={ProfilePic} className='profile-pic mx-4 mt-4' alt='Profile Pic 2' />
           <div className='card-content mx-4'>
             <h2 className='card-title mt-4 mb-4'>
               <u>About Me</u>
@@ -20,8 +16,8 @@ export default function About() {
             <p className='card-text'>
               I am an ambitious, detail-oriented full-stack web developer in the Chicago-land area. A recent graduate of the full-stack web development bootcamp at Northwestern
               University, I am equally proficient in and have an affinity for both front-end and back-end development. Front-end proficiencies include React, JavaScript, CSS,
-              Bootstrap, jQuery, HTML, APIs, responsive design, Git; back-end proficiencies include Node, Express, MySQL/Sequelize, MongoDB/Mongoose, REST, and GraphQL. I'm so
-              excited to continue my learning and am currently enrolled in courses for REACT, REACT Native, AWS, Java, and PHP..
+              Bootstrap, jQuery, HTML, APIs, responsive design, Git; back-end proficiencies include Node, Express, MySQL/Sequelize, MongoDB/Mongoose, REST, and GraphQL. I am also
+              currently working towards obtaining my AWS certification.
             </p>
             <p className='card-text'>
               I thrive in environments that promote critical thinking, problem-solving, and clear communication, am committed to excellence and resilience through extensive
@@ -37,7 +33,10 @@ export default function About() {
               Chicago-based brass quintet, Axiom Brass, touring the world while performing concerts of music by living composers and hosting education events for students from
               elementary schools through universities.
             </p>
-            <p className='card-text'>Outside of coding, I enjoy music, sports, and all things movies, television, and gaming!</p>
+            <p className='card-text'>
+              Outside of coding, I am one of only 0.3% of the U.S. population to have achieved the coveted rank of Eagle Scout, earned my Bachelor's with a 3.96 GPA, and have
+              played competitive baseball my entire life, even to this day.
+            </p>
           </div>
         </div>
       </div>
