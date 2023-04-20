@@ -24,7 +24,7 @@ const projectData = [
   },
   {
     id: 2,
-    title: 'Fetch Assessment',
+    title: 'Fetch',
     type: 'ReactJS, MaterialUI',
     img: fetchAssessment,
     description: "Search for your favorite dogs from a large list of available pups provided by Fetch's privately provided API.",
