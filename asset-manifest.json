@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e00bc6cf.css",
-    "main.js": "/static/js/main.d976364f.js",
-    "static/media/fetch-homepage-screenshot.png": "/static/media/fetch-homepage-screenshot.451510158d1e33c260f9.png",
-    "static/media/Background-generator-screenshot.png": "/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
-    "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
-    "static/media/Couch-Potato-screenshot.png": "/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
-    "static/media/headshot2.jpeg": "/static/media/headshot2.9f33d58c06d806fdd6ab.jpeg",
-    "static/media/Weather-dashboard-screenshot.jpg": "/static/media/Weather-dashboard-screenshot.ddbac0725fa41bdfe2f3.jpg",
-    "static/media/code-quiz-screenshot.jpg": "/static/media/code-quiz-screenshot.7f48f739c746eaa62fcf.jpg",
-    "static/media/Cocktail-concierge-screenshot.jpg": "/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
-    "static/media/Password-Generator.jpg": "/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
-    "static/media/Test-Ecommerce-Site-Screenshot.png": "/static/media/Test-Ecommerce-Site-Screenshot.c7fe0d0fc7dd0fe31eac.png",
-    "static/media/Expense-tracker-screenshot.png": "/static/media/Expense-tracker-screenshot.d6027da5fbfd75db6cbc.png",
-    "static/media/project-3-landing-page-screenshot.png": "/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
-    "static/media/Web-dev-resume_Final.pdf": "/static/media/Web-dev-resume_Final.a4d50cbbf681d3e2796e.pdf",
-    "static/media/Profile-Pic.jpg": "/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
-    "index.html": "/index.html",
-    "main.e00bc6cf.css.map": "/static/css/main.e00bc6cf.css.map",
-    "main.d976364f.js.map": "/static/js/main.d976364f.js.map"
+    "main.css": "/My-Portfolio/static/css/main.bf3322c7.css",
+    "main.js": "/My-Portfolio/static/js/main.2b5aba4d.js",
+    "static/media/fetch-homepage-screenshot.png": "/My-Portfolio/static/media/fetch-homepage-screenshot.451510158d1e33c260f9.png",
+    "static/media/Background-generator-screenshot.png": "/My-Portfolio/static/media/Background-generator-screenshot.8d61d08670da0b67844f.png",
+    "static/media/cole-parsons-sPIKKSxDn_8-unsplash.jpg": "/My-Portfolio/static/media/cole-parsons-sPIKKSxDn_8-unsplash.f7d39f6a1284c712f5f5.jpg",
+    "static/media/Couch-Potato-screenshot.png": "/My-Portfolio/static/media/Couch-Potato-screenshot.645b185a4a4b628393b9.png",
+    "static/media/headshot2.jpeg": "/My-Portfolio/static/media/headshot2.9f33d58c06d806fdd6ab.jpeg",
+    "static/media/Weather-dashboard-screenshot.jpg": "/My-Portfolio/static/media/Weather-dashboard-screenshot.ddbac0725fa41bdfe2f3.jpg",
+    "static/media/code-quiz-screenshot.jpg": "/My-Portfolio/static/media/code-quiz-screenshot.7f48f739c746eaa62fcf.jpg",
+    "static/media/Cocktail-concierge-screenshot.jpg": "/My-Portfolio/static/media/Cocktail-concierge-screenshot.b1800c4858d9613c9924.jpg",
+    "static/media/Password-Generator.jpg": "/My-Portfolio/static/media/Password-Generator.a65880c4a0d6046d4143.jpg",
+    "static/media/Test-Ecommerce-Site-Screenshot.png": "/My-Portfolio/static/media/Test-Ecommerce-Site-Screenshot.c7fe0d0fc7dd0fe31eac.png",
+    "static/media/Expense-tracker-screenshot.png": "/My-Portfolio/static/media/Expense-tracker-screenshot.d6027da5fbfd75db6cbc.png",
+    "static/media/project-3-landing-page-screenshot.png": "/My-Portfolio/static/media/project-3-landing-page-screenshot.79778d8a865ac9212a24.png",
+    "static/media/Web-dev-resume_Final.pdf": "/My-Portfolio/static/media/Web-dev-resume_Final.a4d50cbbf681d3e2796e.pdf",
+    "static/media/Profile-Pic.jpg": "/My-Portfolio/static/media/Profile-Pic.8b4df8dd2eb0cbcfb5f5.jpg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.bf3322c7.css.map": "/My-Portfolio/static/css/main.bf3322c7.css.map",
+    "main.2b5aba4d.js.map": "/My-Portfolio/static/js/main.2b5aba4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e00bc6cf.css",
-    "static/js/main.d976364f.js"
+    "static/css/main.bf3322c7.css",
+    "static/js/main.2b5aba4d.js"
   ]
 }
